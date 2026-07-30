@@ -1,2 +1,9 @@
 # reach-core
-Multi-platform research CLI (X, Reddit, YT, GitHub...) with structured output and MCP. Upgraded from Agent-Reach.
+
+Multi-platform research CLI without paid APIs.
+
+Upgraded from [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach).
+
+```bash
+python -m reach_core search "AI agents" --sources x,reddit,github --days 7
+```
